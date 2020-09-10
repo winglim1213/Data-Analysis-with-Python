@@ -1,5 +1,6 @@
 # Pandas-Data-Science-Tasks
-Disclaimer: This project is done with the assistant of 'Solving real world data science tasks with Python Pandas!' under this youtube link: https://www.youtube.com/watch?v=eMOA1pPVUc4. The data are created by author, not from real world data. Some additional features and amendments are made beside the video.
+Disclaimer: This project is done with the assistant of 'Solving real world data science tasks with Python Pandas!' under this youtube link: https://www.youtube.com/watch?v=eMOA1pPVUc4. 
+The data are created by author, not from real world data. Some additional features and amendments are made beside the video.
 
 ## Setup
 
