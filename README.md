@@ -1,45 +1,38 @@
 # Pandas-Data-Science-Tasks
-Set of real world data science tasks completed using the Python Pandas library.
+Disclaimer: This project is done with the assistant of 'Solving real world data science tasks with Python Pandas!'
+youtube link: https://www.youtube.com/watch?v=eMOA1pPVUc4
+The data are created by author, not from real world data. Some additional features and amendments are made.
+This project will be further analyzed using tableau.
 
 ## Setup
 
-To access all of the files I recommend you fork this repo and then clone it locally. Instructions on how to do this can be found here: https://help.github.com/en/github/getting-started-with-github/fork-a-repo
-
-The other option is to click the green "clone or download" button and then click "Download ZIP". You then should extract all of the files to the location you want to edit your code.
-
-Installing Jupyter Notebook: https://jupyter.readthedocs.io/en/latest/install.html <br/>
-Installing Pandas library: https://pandas.pydata.org/pandas-docs/stable/install.html 
+The dataset can be found in file Sales_Data. It contains information of 12 months worth of sales data, including quantity, price, and date etc. 
 
 ## Background Information:
 
-This repo goes with my video on "Solving real world data science videos with Python Pandas!". Here is some information on that video.
+There will be 3 main parts in our project. 
 
-In this video we use Python Pandas & Python Matplotlib to analyze and answer business questions about 12 months worth of sales data. The data contains hundreds of thousands of electronics store purchases broken down by month, product type, cost, purchase address, etc. 
+### Part 0: Importing the Dataset and Cleaning data 
+We start by cleaning our data. Task of this part includes:
+- Drop rows with NaN values from DataFrame
+- Drop rows based on certain condition (e.g. meaningless data)
 
-We start by cleaning our data. Tasks during this section include:
-- Drop NaN values from DataFrame
-- Removing rows based on a condition
-- Change the type of columns (to_numeric, to_datetime, astype)
+We will change the type of columns (to_numeric etc.) in the later parts. It is recommended to change the types in this part for smoother analysis.
 
-Once we have cleaned up our data a bit, we move the data exploration section. In this section we explore 5 high level business questions related to our data:
-- What was the best month for sales? How much was earned that month?
-- What city sold the most product?
-- What time should we display advertisemens to maximize the likelihood of customer’s buying product?
-- What products are most often sold together?
-- What product sold the most? Why do you think it sold the most?
+### Part 1 : Data Analysis
+After cleaning our data, we will move to data analysis part. We will mainly focus on these 5 questions:
+- What is the best month for sales? How much was earned in that month?
+- Which city had the highest number of sales
+- What time should we display advertisements to maximize likelihood of customer's buying product?
+- What products are often sold together?
+- Which products are bestseller? Why do you think it did?
 
-To answer these questions we walk through many different pandas & matplotlib methods. They include:
-- Concatenating multiple csvs together to create a new DataFrame (pd.concat)
-- Adding columns
-- Parsing cells as strings to make new columns (.str)
-- Using the .apply() method
-- Using groupby to perform aggregate analysis
-- Plotting bar charts and lines graphs to visualize our results
-- Labeling our graphs
+To answer these question, we will apply Pandas dataframe and related functions.
 
-Check out the first video I did on Pandas: <br/>
-https://youtu.be/vmEHCJofslg 
+### Part 2: Data Staging 
+In the last part, we will migrate our data to mysql database and save the dataframe as csv file. The user will need to enter the  name of database, user and password for their own database. Set up in the database will not be covered. 
 
-Check out the videos I did on Matplotlib: <br/>
-https://youtu.be/DAQNHzOcO5A <br/>
-https://youtu.be/0P7QnIQDBJY
+We will generate better visualized our findings with graphs in Tableau. 
+Please read my analysis In Tableau through the link below:
+https://public.tableau.com/views/Sales_Analysis_15985115650620/SalesforeachMonth?:language=en-GB&:display_count=y&:origin=viz_share_link
+
