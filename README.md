@@ -10,7 +10,7 @@ The dataset can be found in file Sales_Data. It contains information of 12 month
 
 There will be 3 main parts in our project. 
 
-### Part 0: Importing the Dataset and Cleaning data 
+### Part 0: Importing the Dataset and Data Preprocessing 
 We start by cleaning our data. Task of this part includes:
 - Drop rows with NaN values from DataFrame
 - Drop rows based on certain condition (e.g. meaningless data)
