@@ -31,6 +31,6 @@ To answer these question, we will apply Pandas dataframe and related functions.
 In the last part, we will migrate our data to mysql database and save the dataframe as csv file. The user will need to enter the  name of database, user and password for their own database. Set up in the database will not be covered. 
 
 We will generate better visualized our findings with graphs in Tableau. 
-Please read my analysis In Tableau through the link below:
-https://public.tableau.com/views/Sales_Analysis_15985115650620/SalesforeachMonth?:language=en-GB&:display_count=y&:origin=viz_share_link
+Please read the analysis In Tableau through the link below:
+https://public.tableau.com/views/Sales_Analysis_15985115650620/Dashboard1?:language=en&:display_count=y&publish=yes&:origin=viz_share_link
 
